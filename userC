@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main(){
+    
+    printf("\n 1. Neliön kehän pituus.\n");
+    printf(" \n 2. Ympyrän kehän pituus.\n");
+    printf(" \n 9. Lopetus.\n");
+    
+    printf("\nKOMENTO: \n");
+    int userC;
+    scanf("%d", &userC);
+    
+    if (userC == 1) {
+        printf("\nValittu Neliön kehän pituus\n");
+    }
+    
+    else if (userC == 2) {
+        printf("\nValittu Ympyrän kehän pituus\n");
+    }
+    
+    else if (userC == 9) {
+        return 0;
+    }
+    
+    else {
+        printf("\nVäärä komento\n");
+    }
+    
+    return 0;
+}
